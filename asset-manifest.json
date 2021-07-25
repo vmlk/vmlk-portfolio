@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vmlk-portfolio/static/css/main.4f2b06d2.chunk.css",
+    "main.js": "/vmlk-portfolio/static/js/main.5c61e0e8.chunk.js",
+    "main.js.map": "/vmlk-portfolio/static/js/main.5c61e0e8.chunk.js.map",
+    "runtime-main.js": "/vmlk-portfolio/static/js/runtime-main.e865a815.js",
+    "runtime-main.js.map": "/vmlk-portfolio/static/js/runtime-main.e865a815.js.map",
+    "static/js/2.de705a2d.chunk.js": "/vmlk-portfolio/static/js/2.de705a2d.chunk.js",
+    "static/js/2.de705a2d.chunk.js.map": "/vmlk-portfolio/static/js/2.de705a2d.chunk.js.map",
+    "index.html": "/vmlk-portfolio/index.html",
+    "static/css/main.4f2b06d2.chunk.css.map": "/vmlk-portfolio/static/css/main.4f2b06d2.chunk.css.map",
+    "static/js/2.de705a2d.chunk.js.LICENSE.txt": "/vmlk-portfolio/static/js/2.de705a2d.chunk.js.LICENSE.txt",
+    "static/media/4.c536f242.png": "/vmlk-portfolio/static/media/4.c536f242.png",
+    "static/media/delete.8ef24ee9.svg": "/vmlk-portfolio/static/media/delete.8ef24ee9.svg",
+    "static/media/github-brands.e2f07326.svg": "/vmlk-portfolio/static/media/github-brands.e2f07326.svg",
+    "static/media/hamburger.f1e9f758.svg": "/vmlk-portfolio/static/media/hamburger.f1e9f758.svg",
+    "static/media/index.css": "/vmlk-portfolio/static/media/tile_background_dark.b9f5eee4.png",
+    "static/media/twitter-brands.87682341.svg": "/vmlk-portfolio/static/media/twitter-brands.87682341.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e865a815.js",
+    "static/js/2.de705a2d.chunk.js",
+    "static/css/main.4f2b06d2.chunk.css",
+    "static/js/main.5c61e0e8.chunk.js"
+  ]
+}
