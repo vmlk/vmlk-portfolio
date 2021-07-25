@@ -13,28 +13,30 @@ import Skills from "./Skills";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
-  const getData = () => {
-    fetch("data.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
-      .then(function (response) {
-        console.log(response);
-        return response.json();
-      })
-      .then(function (myJson) {
-        console.log(myJson);
-      });
-  };
+  // const getData = () => {
+  //   fetch("data.json", {
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Accept: "application/json",
+  //     },
+  //   })
+  //     .then(function (response) {
+  //       return response.json();
+  //     })
+  //     .then(function (myJson) {
+  //       console.log(myJson);
+  //       setData(myJson);
+  //     });
+  // };
 
-  useEffect(() => {
-    getData();
-  }, []);
-
+  // useEffect(() => {
+  //   getData();
+  // }, []);
+  // console.log(data);
+  // const { name, designation, about, projects, skills, email } = data;
+  // console.log(projects);
   function handleToggle() {
     setNavToggle(!navToggle);
   }

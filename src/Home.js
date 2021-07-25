@@ -1,11 +1,20 @@
 import React from "react";
 import MyImg from "./assets/4.png";
 import Typical from "react-typical";
-const Home = () => {
+import { DeveloperIcon, RocketIcon } from "./SocialIcons";
+const Home = ({ name, designation }) => {
+  console.log(name);
+  console.log(designation);
   return (
     <div>
       <div className="background_text">
         <h1>Hello</h1>
+      </div>
+      <div className="hidden lg:inline absolute right-5 top-5">
+        <DeveloperIcon />
+      </div>
+      <div className="rocket absolute -ml-60 z-50">
+        <RocketIcon />
       </div>
       <div className="flex flex-col items-center w-full lg:w-1/3 absolute top-28 sm:top-32 lg:top-1/3 lg:left-2/4 lg:-ml-24">
         <img
@@ -25,7 +34,7 @@ const Home = () => {
         <div className="my-16">
           <p className="text-2xl sm:text-4xl">
             <Typical
-              steps={["Frontend Engineer🚀", 1200, "UI Developer", 1000]}
+              steps={["UI developer", 1200, "Frontend Engineer🚀", 1000]}
               loop={Infinity}
               wrapper="p"
             />

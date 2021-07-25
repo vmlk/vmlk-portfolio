@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { CodeIcon } from "./SocialIcons";
+import WorkItem from "./WorkItem";
 
 const Work = () => {
+  const projects = [
+    {
+      heading: "👉 Feed a Mole game (HTML + CSS + JavaScript)",
+      link: "https://vmlk.github.io/mole-game/index.html",
+    },
+    {
+      heading: "👉 TODO List app (React + Friebase + Materail-UI)",
+      link: "https://todo-app-vimalk.web.app/",
+    },
+    {
+      heading: "👉 Messenger App (React + Firebase + Material-UI)",
+      link: "https://fb-messenger-clone-vimalk.web.app/",
+    },
+  ];
   return (
     <div>
       <div className="background_text">
@@ -14,11 +29,10 @@ const Work = () => {
         <CodeIcon />
       </div>
       <div className="w-full absolute top-20 lg:top-24 text-center my-5 px-2">
-        <div className="flex flex-col items-center lg:ml-32">
-          <p className="text-base sm:text-xl lg:text-2xl border-2 border-blue-dark bg-blue p-4 hover:bg-blue-dark hover:text-blue-light transition-all duration-100 ease-in-out hover:no-underline cursor-pointer focus:outline-black">
-            A simple Calculator with HTML, CSS, and JavaScript
-          </p>
-        </div>
+        {projects.map((obj, index) => {
+          console.log("a");
+          return <WorkItem key={index} obj={obj} />;
+        })}
       </div>
     </div>
   );

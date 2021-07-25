@@ -5,6 +5,9 @@ import GitHubSocial from "./assets/Icon.json";
 import TwitterSocial from "./assets/Icon(2).json";
 import Plane from "./assets/plane.json";
 import Code from "./assets/code.json";
+import Developer from "./assets/developer.json";
+import Skills from "./assets/skills.json";
+import Rocket from "./assets/rocket.json";
 
 export const GitHubIcon = () => {
   const defaultOptions = {
@@ -82,6 +85,54 @@ export const CodeIcon = () => {
   return (
     <>
       <Lottie options={defaultOptions} height={100} width={100} />
+    </>
+  );
+};
+
+export const DeveloperIcon = () => {
+  const defaultOptions = {
+    loop: false,
+    autoplay: true,
+    animationData: Developer,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+  return (
+    <>
+      <Lottie options={defaultOptions} height={120} width={120} />
+    </>
+  );
+};
+
+export const SkillsIcon = () => {
+  const defaultOptions = {
+    loop: false,
+    autoplay: true,
+    animationData: Skills,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+  return (
+    <>
+      <Lottie options={defaultOptions} height={120} width={120} />
+    </>
+  );
+};
+
+export const RocketIcon = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: Rocket,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+  return (
+    <>
+      <Lottie options={defaultOptions} height={80} width={80} />
     </>
   );
 };

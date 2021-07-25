@@ -140,3 +140,19 @@ body {
 .light-color {
   color: #f6f3f6;
 }
+
+/*********ROCKET*************/
+@keyframes rocket {
+  from {
+    right: -200px;
+    top: 60%;
+  }
+  to {
+    right: 50%;
+    top: -200px;
+  }
+}
+
+.rocket {
+  animation: rocket 2.5s ease-in-out;
+}

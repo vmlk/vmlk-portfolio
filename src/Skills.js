@@ -1,6 +1,6 @@
 import React from "react";
 import SkillList from "./SkillList";
-
+import { SkillsIcon } from "./SocialIcons";
 const Skills = () => {
   const arr = [
     {
@@ -159,6 +159,9 @@ const Skills = () => {
     <div>
       <div className="background_text">
         <h1>skills</h1>
+      </div>
+      <div className="hidden lg:inline absolute right-40 top-10">
+        <SkillsIcon />
       </div>
       <p className="text-center mt-5 border bg-blue-dark w-max text-blue-light uppercase px-2 py-1 lg:hidden">
         skills

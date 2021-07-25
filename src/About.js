@@ -11,7 +11,7 @@ const About = () => {
       </p>
       <div className="absolute top-20 lg:left-96 lg:top-0">
         <p className="p-8 text-base sm:text-xl lg:text-2xl leading-7 sm:leading-10 lg:leading-10">
-          A passionate developer from India 🇮🇳
+          A passionate developer from <b>India</b> 🇮🇳
           <br />
           <br />
           I design the visual layer to create a beautiful user experience.
@@ -28,8 +28,7 @@ const About = () => {
           --> code must be readable. <br />
           --> more declarative, less Imperative.
           <br />
-          <br />
-          I love❤️ to code in JavaScript.
+          <br />I love❤️ to code in <b>JavaScript</b>.
           <br />
           <br />
           📝 I regularly write articles on -->{" "}
