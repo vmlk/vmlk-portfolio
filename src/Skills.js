@@ -65,47 +65,47 @@ const Skills = () => {
           iconTitle: "Node.js",
           iconLink: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
         },
-        {
-          iconTitle: "Express",
-          iconLink:
-            "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
-        },
-        {
-          iconTitle: "GraphQL",
-          iconLink:
-            "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-        },
+        // {
+        //   iconTitle: "Express",
+        //   iconLink:
+        //     "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
+        // },
+        // {
+        //   iconTitle: "GraphQL",
+        //   iconLink:
+        //     "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+        // },
       ],
     },
-    {
-      title: "Mobile App Development",
-      icon: [
-        {
-          iconTitle: "React Native",
-          iconLink:
-            "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-        },
-      ],
-    },
-    {
-      title: "Database",
-      icon: [
-        {
-          iconTitle: "MongoDB",
-          iconLink:
-            "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
-        },
-      ],
-    },
-    {
-      title: "Data Visualization",
-      icon: [
-        {
-          iconTitle: "D3",
-          iconLink: "https://www.vectorlogo.zone/logos/d3js/d3js-icon.svg",
-        },
-      ],
-    },
+    // {
+    //   title: "Mobile App Development",
+    //   icon: [
+    //     {
+    //       iconTitle: "React Native",
+    //       iconLink:
+    //         "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Database",
+    //   icon: [
+    //     {
+    //       iconTitle: "MongoDB",
+    //       iconLink:
+    //         "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Data Visualization",
+    //   icon: [
+    //     {
+    //       iconTitle: "D3",
+    //       iconLink: "https://www.vectorlogo.zone/logos/d3js/d3js-icon.svg",
+    //     },
+    //   ],
+    // },
     {
       title: "Devops",
       icon: [
@@ -125,20 +125,20 @@ const Skills = () => {
         },
       ],
     },
-    {
-      title: "Static site generator",
-      icon: [
-        {
-          iconTitle: "Gatsby",
-          iconLink:
-            "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
-        },
-        {
-          iconTitle: "Next.js",
-          iconLink: "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg",
-        },
-      ],
-    },
+    // {
+    //   title: "Static site generator",
+    //   icon: [
+    //     {
+    //       iconTitle: "Gatsby",
+    //       iconLink:
+    //         "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
+    //     },
+    //     {
+    //       iconTitle: "Next.js",
+    //       iconLink: "https://cdn.worldvectorlogo.com/logos/nextjs-3.svg",
+    //     },
+    //   ],
+    // },
     {
       title: "Others",
       icon: [
