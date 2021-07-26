@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import MyImg from "./assets/4.png";
+import MyImg from "../assets/4.png";
 import Nav from "./Nav";
+
+/* this component is only for Larger screen only */
+
 const Sidebar = () => {
   return (
     <div className="fixed top-0 left-0 bottom-0 w-80 overflow-hidden div-shadow z-50">

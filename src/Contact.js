@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubBrand from "./assets/github-brands.svg";
 import TwitterBrand from "./assets/twitter-brands.svg";
-import { PaperPlane } from "./SocialIcons";
+import { PaperPlane } from "./LottieIcons";
 
 const Contact = () => {
   return (
@@ -20,6 +20,8 @@ const Contact = () => {
               vimalkwh05@gmail.com
             </h1>
           </a>
+
+          {/* Social links for the mobile view */}
           <div className="flex mt-16 lg:hidden">
             <a href="https://github.com/vmlk" target="_blank">
               <p className="mx-4 underline">

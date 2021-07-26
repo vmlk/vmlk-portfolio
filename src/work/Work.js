@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { CodeIcon } from "./SocialIcons";
+import { CodeIcon } from "../LottieIcons";
 import WorkItem from "./WorkItem";
 
 const Work = () => {
+  /* UPDATE the projects array for projects on work component */
   const projects = [
     {
       heading: "👉 Feed a Mole game (HTML + CSS + JavaScript)",
@@ -25,10 +26,12 @@ const Work = () => {
       <p className="text-center mt-5 border bg-blue-dark w-max text-blue-light uppercase px-2 py-1 lg:hidden">
         work
       </p>
+      {/* Lottie icon */}
       <div className="hidden lg:inline absolute right-5 top-5">
         <CodeIcon />
       </div>
       <div className="w-full absolute top-20 lg:top-24 text-center my-5 px-2">
+        {/* WorkItem component create each project item */}
         {projects.map((obj, index) => {
           console.log("a");
           return <WorkItem key={index} obj={obj} />;

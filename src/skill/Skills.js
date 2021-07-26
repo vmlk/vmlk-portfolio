@@ -1,7 +1,9 @@
 import React from "react";
 import SkillList from "./SkillList";
-import { SkillsIcon } from "./SocialIcons";
+import { SkillsIcon } from "../LottieIcons";
 const Skills = () => {
+  /* UPDATE the arr(array) for skills icons */
+
   const arr = [
     {
       title: "Programming Languages",
@@ -160,6 +162,7 @@ const Skills = () => {
       <div className="background_text">
         <h1>skills</h1>
       </div>
+      {/* Lottie icon */}
       <div className="hidden lg:inline absolute right-40 top-10">
         <SkillsIcon />
       </div>

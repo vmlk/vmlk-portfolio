@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { GitHubIcon } from "./SocialIcons";
-import { LinkedInIcon } from "./SocialIcons";
-import { TwitterIcon } from "./SocialIcons";
+import { GitHubIcon } from "../LottieIcons";
+import { LinkedInIcon } from "../LottieIcons";
+import { TwitterIcon } from "../LottieIcons";
 const Nav = (props) => {
   return (
     <div className="bg-blue-light flex flex-col items-center py-8 h-screen div-shadow">
@@ -34,6 +34,7 @@ const Nav = (props) => {
           </button>
         </Link>
       </div>
+      {/* Social icon for nav */}
       <div className="w-full flex flex-row justify-around mt-2">
         <div className="social_icon">
           <a href="https://github.com/vmlk" target="_blank">

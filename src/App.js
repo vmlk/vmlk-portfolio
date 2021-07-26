@@ -1,48 +1,26 @@
 import React, { useEffect } from "react";
-import Nav from "./Nav";
-import Sidebar from "./Sidebar";
+import Nav from "./nav/Nav";
+import Sidebar from "./nav/Sidebar";
 import hamburger from "./assets/hamburger.svg";
 import cross from "./assets/delete.svg";
 import { useState } from "react";
 import Home from "./Home";
 import About from "./About";
-import Work from "./Work";
+import Work from "./work/Work";
 import Contact from "./Contact";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Skills from "./Skills";
+import Skills from "./skill/Skills";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
-  // const [data, setData] = useState([]);
 
-  // const getData = () => {
-  //   fetch("data.json", {
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json",
-  //     },
-  //   })
-  //     .then(function (response) {
-  //       return response.json();
-  //     })
-  //     .then(function (myJson) {
-  //       console.log(myJson);
-  //       setData(myJson);
-  //     });
-  // };
-
-  // useEffect(() => {
-  //   getData();
-  // }, []);
-  // console.log(data);
-  // const { name, designation, about, projects, skills, email } = data;
-  // console.log(projects);
+  /*Function that handle toggel of nav in mobile view*/
   function handleToggle() {
     setNavToggle(!navToggle);
   }
 
   return (
-    <Router>
+    <Router basename="/vmlk-portfolio">
       <div className="App">
         <div className="text-blue-dark underline text-xs sm:text-sm font-semibold w-full text-center mt-3 lg:hidden focus:outline-black">
           <p>
