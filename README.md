@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This site was built using
+- [GitHub Pages](https://pages.github.com/).
+- [Tailwind CSS](https://tailwindcss.com/)
+- [react-lottie](https://www.npmjs.com/package/react-lottie) -for lottie animation
+- [react-typical](https://www.npmjs.com/package/react-typical) -react animated typing
+
+Clone this repo using command:
+#### ``` git clone https://github.com/vmlk/vmlk-portfolio.git ```
+
+Before using run 
+#### ```npm install```
 
 ## Available Scripts
 
